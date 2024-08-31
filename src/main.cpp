@@ -5,9 +5,7 @@
 int main() {
     InitWindow(800, 600, "Random Body2D");
     SetTargetFPS(60);
-
     std::vector<Body2D> bodies;
-
     Body2D body;
     Body2D body1;
     Vector2 position = {10.0f, 10.0f};
