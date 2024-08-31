@@ -3,6 +3,7 @@
 class Engine{
     private:
     public:
-    void GUI();
-  
+    void dropbody();
+    void bodydraw();
+    void CollisionHandle();
 };
