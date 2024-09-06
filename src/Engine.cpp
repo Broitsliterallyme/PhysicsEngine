@@ -14,6 +14,10 @@ std::vector<Body2D> bodies;
     }
  }
     void Engine::CollisionHandle(){
+      for (int i = 0; i < bodies.size(); i++) {
+        for (int j = i + 1; j < bodies.size(); j++) {
 
+        }
+      }
     }
  
