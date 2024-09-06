@@ -4,6 +4,7 @@
 #include "Collision.h"
 #include "Engine.h"
 Engine engine;
+Collision collision;
 int main() {
     InitWindow(800, 600, "Random Body2D");
     SetTargetFPS(60);
@@ -12,6 +13,7 @@ int main() {
         ClearBackground(RAYWHITE);
         if(IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
         engine.dropbody();
+        collision.CheckCollisions();
         engine.bodydraw();
         EndDrawing();
     }
