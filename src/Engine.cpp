@@ -1,5 +1,5 @@
 #include "Engine.h"
-#include "Collision.h"z
+#include "Collision.h"
 Collision collision;
 std::vector<Body2D> bodies;
  
@@ -14,8 +14,8 @@ std::vector<Body2D> bodies;
     }
  }
     void Engine::CollisionHandle(){
-      for (int i = 0; i < bodies.size(); i++) {
-        for (int j = i + 1; j < bodies.size(); j++) {
+      for (int i = 0; i < (int)bodies.size(); i++) {
+        for (int j = i + 1; j < (int)bodies.size(); j++) {
 
         }
       }
